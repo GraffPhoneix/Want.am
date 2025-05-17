@@ -128,7 +128,7 @@
     }
 }
 
-#top_products > div > div > sub {
+#top_products>div>div>sub {
     color: #959595;
 }
 
@@ -137,4 +137,26 @@
     margin-top: 4.2%;
     font-weight: bold;
     font-size: 22px;
+}
+
+#footer {
+    margin-top: 4.5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;  
+    text-align: center;
+    cursor: pointer;
+}
+
+#footer > div > img {
+    width: 55%;
+    height: 30px;
+}
+
+.main {
+    font-weight: bold;
+}
+
+.sub {
+    color: #5e5e5e;
 }
