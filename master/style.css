@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+}
+
+#logo_img {
+    margin: 5px 5px 5px 5px;
+    width: 110%;
+    height: 33px;
+}
+
+#header {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#catalog_btn {
+    width: 250%;
+    height: 33px;
+    border-radius: 8px;
+    border: none;
+    background-color: #A395C9;
+    color: white;
+    cursor: pointer;
+    transition: 0.9s ease;
+    box-shadow: rgba(149, 157, 165, 0.05) 0px 8px 24px;
+
+    &:hover {
+        background-color: #9B89CB;
+        transform: scale(1.03);
+        box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+    }
+}
+
+#serach_input {
+    width: 135%;
+    height: 20px;
+    border: 1.5px solid #e9e9e9;
+    padding: 5px 5px 5px 5px;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#liked_btn,
+#shop_btn {
+    width: 210%;
+    height: 30px;
+    margin-left: 8px;
+    background-color: #e9e9e9;
+    border: none;
+    border-radius: 8px;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #A395C9;
+        color: white;
+    }
+}
+
+#profile_btn {
+    width: 180%;
+    height: 30px;
+    margin-left: 8px;
+    background-color: #e9e9e9;
+    border: none;
+    border-radius: 8px;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #A395C9;
+        color: white;
+    }
+}
