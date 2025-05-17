@@ -78,3 +78,10 @@
         color: white;
     }
 }
+
+#offers {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3.5%;
+    text-align: center;
+}
